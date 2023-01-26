@@ -1,0 +1,242 @@
+body{
+	margin:0;
+	--s: 50px;
+  --c: #191b22;
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --_g: 35.36% 35.36% at;
+  --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
+  background: 
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+    radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+    radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+  background-attachment: fixed;
+	font-family: roboto , sans-serif;*/
+}
+h1{
+	font-weight: 700;
+	color: white;
+	display: inline-block;
+	text-shadow: 5px 2px 5px black;		
+}
+p{
+	display:inline-block;
+	width: 600px;
+	color: white;
+	font-weight: 500;
+	font-family: Snap ITC;	
+	text-shadow: 5px 2px 5px red;
+}
+header{
+	background-color: #1d91b7;
+	text-align: center;	
+	padding: 10px;
+
+}
+.description{
+	display:inline-block;
+	width: 100%;
+	font-weight: 700px;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	background: linear-gradient(blue,#ca8a8e);
+
+}
+.section{
+	width: 100%;
+	margin-left: 10px;
+	margin-right: auto;
+	vertical-align: top;
+	color: white;	
+	text-shadow: 5px 2px 5px black;
+}
+.section1, .section2, .section3, .section4{
+	width: 100%;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 70px;
+	color: white;
+	font-family: roboto , sans-serif;
+	text-shadow: 5px 2px 5px black;
+}
+
+.h3{
+	display: inline-block;
+	width: 65%;	
+	margin-top: 10px;
+	vertical-align: top;
+}
+.img{
+	display: inline-block;
+	width: 30%;	
+}
+h3{
+	font-size: 36px;
+	font-weight: 700;
+	display: inline-block;
+	width: 70%;
+	font-family: Bernard MT Condensed;
+
+
+}
+dt{
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	margin-top: 36px;
+}
+dd{
+	margin: 0;
+}
+ul{
+	margin-top: 10px;
+	padding: 10px;
+}
+li{
+	margin-top: 16px;
+}
+img{
+	width:200px;
+	margin-top: 10px;
+}
+.section4 ul{
+	list-style: none;
+	padding: 3;
+}
+@media screen and (max-width: 480px)/*iphone 4*/
+{
+	
+p{
+ display:inline-block;
+ width: 500px;
+ color: white;
+ font-weight: 700;
+ font-family: Snap ITC;	
+ text-shadow: 5px 2px 3px black;
+}
+
+h1{
+	font-weight: 700;
+	color: white;
+	display: inline-block;
+	text-shadow: 6px 5px 3px black;		
+}
+	
+dt{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	margin-top: 25px;
+}
+dd{
+	margin: 0;
+}
+ul{
+	margin-top: 8px;
+	padding: 0px;
+}
+li{
+	margin-top: 10px;
+}
+img{
+	width:10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+h3{
+	font-size: 20px;
+	font-weight: 500;
+	display: inline-block;
+	width: 50%;
+	font-family: Bernard MT Condensed;
+	
+}
+}
+
+@media screen and (min-width: 360px) and (max-width:540px)/*phablets o tablets*/
+{
+	header{
+		display:inline-block;
+		margin-left: auto;
+	  margin-right: auto;
+		height: 50px;
+		font-size: 7px;
+		width: 500px;
+	  background-color: #1d91b7;
+	  text-align: center;	
+	  padding: 10px;
+}
+p{
+	margin-left: auto;
+  margin-right: auto;
+	font-size: 10px;
+	width: 400px;
+	color: white;
+	font-weight: 100;
+	font-family: Snap ITC;	
+	text-shadow: 5px 2px 5px red;}
+
+Img{
+	width:130px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 110px;
+}
+.description{
+	display:inline-block;
+	margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+	font-family: Arial;
+	font-size: 10px;
+	background:linear-gradient(blue,#ca8a8e);
+	
+}
+.section1{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: auto;
+}
+.section2{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: auto;
+}
+.section3{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: auto;
+}
+.section4{
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: auto;
+}
+h3{
+	font-size: 20px;
+	font-weight: 500;
+	display: inline-block;
+	width: 50%;
+	font-family: Bernard MT Condensed;
+	
+}
+dt{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	margin-top: 25px;
+}
+
+}
+
+
+
+
+
